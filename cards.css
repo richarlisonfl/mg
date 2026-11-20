@@ -8,18 +8,18 @@
     margin: 0 auto;
 }
 .card:hover {
-    background-color: #5b470b;
-    color: white;
+    background-color: #9c0d38;
+    color: #fefcfb;
+
 }
+
 .card {
     flex: 1;
-    background-color: white;
+    background-color: #CE5374;
     padding: 20px;
     border-radius: 10px;
 }
-.card h3{
-    color: #872f2f;
-}
+
 .card-imagem img{
     width: 100%;
     height: 180px;
