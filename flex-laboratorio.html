@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório Flexbox</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+
+            min-height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #334155;
+            color: white;
+            padding: 25px;
+        }
+
+        .layout {
+            display: flex;
+            flex: 1;
+        }
+
+        .lateral {
+            background-color: #64748b;
+            color: white;
+            width: 25vh;
+            padding: 20px;
+        }
+        
+
+        main {
+            background-color: #e2e8f0;
+            flex: 1;
+            padding: 20px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #94a3b8;
+            padding: 30px;
+            flex: 1;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #334155;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Laboratório Flexbox</h1>
+    </header>
+
+    <div class="layout">
+
+        <div class="lateral">
+            <h2>Menu lateral</h2>
+            <p>Início</p>
+            <p>Projetos</p>
+            <p>Contato</p>
+        </div>
+
+        <main>
+            <h2>Conteúdo principal</h2>
+            <p>Vamos praticar composição de layouts.</p>
+
+            <div class="cards">
+                <div class="card">Card 1</div>
+                <div class="card">Card 2</div>
+                <div class="card">Card 3</div>
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
