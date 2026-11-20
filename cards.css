@@ -1,0 +1,29 @@
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.card:hover {
+    background-color: #5b470b;
+    color: white;
+}
+.card {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card h3{
+    color: #872f2f;
+}
+.card-imagem img{
+    width: 100%;
+    height: 180px;
+    background-color: #872f2f;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
